@@ -1,6 +1,8 @@
 FROM ubuntu
 
-MAINTAINER Austin G. Davis-Richardson
+MAINTAINER Austin G. Davis-Richardson <_@agdr.co>
+DESCRIPTION https://registry.hub.docker.com/u/audy/docker-picrust/
+HOMEPAGE
 
 RUN apt-get update
 
