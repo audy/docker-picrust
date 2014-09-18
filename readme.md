@@ -1,6 +1,6 @@
 # docker-picrust
 
-Run picrust in a Docker container.
+Run PICRUST inside of a Docker container 
 
 (c) 2014 - Austin G. Davis-Richardson.
 
