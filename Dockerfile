@@ -1,8 +1,6 @@
 FROM ubuntu
 
-MAINTAINER Austin G. Davis-Richardson <_@agdr.co>
-DESCRIPTION https://registry.hub.docker.com/u/audy/docker-picrust/
-HOMEPAGE
+MAINTAINER Austin G. Davis-Richardson <harekrishna@gmail.com>
 
 RUN apt-get update
 
@@ -16,8 +14,7 @@ RUN pip install biom-format==1.3.1
 # `pip install cogent==1.5.3` I get an ImportError.
 RUN pip install cogent
 
-RUN wget
-https://github.com/picrust/picrust/releases/download/1.0.0/picrust-1.0.0.tar.gz
+RUN wget https://github.com/picrust/picrust/releases/download/1.0.0/picrust-1.0.0.tar.gz
 
 RUN tar -zxvf picrust-1.0.0.tar.gz
 
